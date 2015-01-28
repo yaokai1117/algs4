@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<section name="net.sf.eclipsecs.core.config.GlobalCheckConfigurationWorkingSet">
+		<item value="34" key="colWidth3"/>
+		<item value="-1" key="selectedRow"/>
+		<item value="85" key="colWidth2"/>
+		<item value="0" key="sortColumn"/>
+		<item value="86" key="colWidth1"/>
+		<item value="115" key="colWidth0"/>
+		<item value="1" key="sortDirection"/>
+	</section>
 	<section name="net.sf.eclipsecs.ui.config.CheckConfigurationConfigureDialog">
+	</section>
+	<section name="net.sf.eclipsecs.ui.config.ResolvablePropertiesDialog">
+		<item value="-1" key="selectedRow"/>
+		<item value="false" key="maximized"/>
+		<item value="0" key="sortColumn"/>
+		<item value="500" key="height"/>
+		<item value="false" key="minimized"/>
+		<item value="283" key="colWidth1"/>
+		<item value="650" key="width"/>
+		<item value="284" key="colWidth0"/>
+		<item value="1" key="sortDirection"/>
+		<item value="48" key="y"/>
+		<item value="358" key="x"/>
 	</section>
 	<section name="net.sf.eclipsecs.core.projectconfig.LocalCheckConfigurationWorkingSet">
 		<item value="-1" key="selectedRow"/>

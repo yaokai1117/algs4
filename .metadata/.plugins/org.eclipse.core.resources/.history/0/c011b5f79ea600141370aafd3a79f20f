@@ -13,7 +13,7 @@ public class PercolationStats {
 
 	private int  T;				// T independent experiments on an N-by-N grid
 	private double[] results;		// save the results of each experiments
-	private static final double ConfidenFactor = 1.96; 
+	private static final double confidenFactor = 1.96; 
 	
 	/**
 	 * perform T independent experiments on an N-by-N grid
@@ -62,7 +62,7 @@ public class PercolationStats {
 	 * @return
 	 */
 	public double confidenceLo(){
-		return mean() - stddev() * ConfidenFactor / Math.sqrt((double)T);
+		return mean() - stddev() * confidenFactor / Math.sqrt((double)T);
 	}
 	
 	/**
@@ -70,7 +70,7 @@ public class PercolationStats {
 	 * @return
 	 */
 	public double confidenceHi(){
-		return mean() + stddev() * ConfidenFactor / Math.sqrt((double)T);
+		return mean() + stddev() * confidenFactor / Math.sqrt((double)T);
 	}
 	
 	/**

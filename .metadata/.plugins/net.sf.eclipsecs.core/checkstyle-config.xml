@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<checkstyle-configurations file-format-version="5.0.0" default-check-configuration="checksss">
+  <check-configuration name="checks" location="internal_config_1422415750153.xml" type="internal" description=""/>
+  <check-configuration name="checksss" location="internal_config_1422416152353.xml" type="internal" description=""/>
+</checkstyle-configurations>

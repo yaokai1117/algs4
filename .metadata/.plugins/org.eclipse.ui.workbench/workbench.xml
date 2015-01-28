@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="16" version="2.0">
+<workbench progressCount="22" version="2.0">
 <workbenchAdvisor/>
 <window height="744" maximized="true" width="683" x="683" y="24">
 <fastViewData fastViewLocation="1024">
@@ -42,9 +42,9 @@
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Percolation.java" partName="Percolation.java" path="/home/yaokai/Work/algs4/Percolation/src/Percolation.java" title="Percolation.java" tooltip="Percolation/src/Percolation.java" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Percolation.java" partName="Percolation.java" path="/home/yaokai/Work/algs4/Percolation/src/Percolation.java" title="Percolation.java" tooltip="Percolation/src/Percolation.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Percolation/src/Percolation.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="21" selectionOffset="1050" selectionTopPixel="64"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="175" selectionTopPixel="724"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PercolationVisualizer.java" partName="PercolationVisualizer.java" path="/home/yaokai/Work/algs4/Percolation/src/PercolationVisualizer.java" title="PercolationVisualizer.java" tooltip="Percolation/src/PercolationVisualizer.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Percolation/src/PercolationVisualizer.java"/>
@@ -54,9 +54,9 @@
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Percolation/src/input20.txt"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2002" selectionTopPixel="3798"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PercolationStats.java" partName="PercolationStats.java" path="/home/yaokai/Work/algs4/Percolation/src/PercolationStats.java" title="PercolationStats.java" tooltip="Percolation/src/PercolationStats.java" workbook="DefaultEditorWorkbook">
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PercolationStats.java" partName="PercolationStats.java" path="/home/yaokai/Work/algs4/Percolation/src/PercolationStats.java" title="PercolationStats.java" tooltip="Percolation/src/PercolationStats.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Percolation/src/PercolationStats.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1770" selectionTopPixel="748"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1725" selectionTopPixel="913"/>
 </editor>
 </editors>
 <views>
@@ -66,7 +66,8 @@
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
-<category IMemento.internal.id="Warnings (3 items)"/>
+<category IMemento.internal.id="Warnings (1 item)"/>
+<category IMemento.internal.id="Warnings"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="397" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.resourceField="105" org.eclipse.ui.ide.severityAndDescriptionField="350"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
@@ -251,7 +252,7 @@
 <layout>
 <mainWindow>
 <info folder="true" part="left">
-<folder activePageID="org.eclipse.jdt.ui.PackageExplorer" appearance="2" expanded="2">
+<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
 <page content="org.eclipse.jdt.ui.PackageExplorer" label="Package Explorer"/>
 <page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 <page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
@@ -306,34 +307,8 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Percolation/src/Percolation.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Percolation/src/PercolationVisualizer.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Percolation/src/PercolationStats.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Percolation/src/PercolationStats.java"/>
 </editors>
-<item historyLabel="PercolationStats.java" index="2">
-<position info="not_deleted" x="1012" y="0"/>
-</item>
-<item historyLabel="PercolationStats.java" index="2">
-<position info="not_deleted" x="993" y="1"/>
-</item>
-<item historyLabel="PercolationStats.java" index="2">
-<position info="not_deleted" x="1012" y="0"/>
-</item>
-<item historyLabel="PercolationVisualizer.java" index="1">
-<position info="not_deleted" x="1776" y="0"/>
-</item>
-<item historyLabel="PercolationStats.java" index="2">
-<position info="not_deleted" x="1012" y="0"/>
-</item>
-<item historyLabel="PercolationStats.java" index="2">
-<position info="not_deleted" x="1066" y="0"/>
-</item>
-<item historyLabel="PercolationStats.java" index="2">
-<position info="not_deleted" x="1064" y="0"/>
-</item>
-<item historyLabel="PercolationStats.java" index="2">
-<position info="not_deleted" x="1153" y="0"/>
-</item>
-<item historyLabel="PercolationStats.java" index="2">
-<position info="not_deleted" x="1158" y="0"/>
-</item>
 <item historyLabel="PercolationStats.java" index="2">
 <position info="not_deleted" x="1159" y="0"/>
 </item>
@@ -454,8 +429,35 @@
 <item historyLabel="PercolationStats.java" index="2">
 <position info="not_deleted" x="1770" y="0"/>
 </item>
-<item active="true" historyLabel="Percolation.java" index="0">
+<item historyLabel="Percolation.java" index="0">
 <position info="not_deleted" x="1050" y="21"/>
+</item>
+<item historyLabel="PercolationStats.java" index="3">
+<position info="not_deleted" x="1770" y="0"/>
+</item>
+<item historyLabel="Percolation.java" index="0">
+<position info="not_deleted" x="1050" y="21"/>
+</item>
+<item historyLabel="Percolation.java" index="0">
+<position info="not_deleted" x="189" y="11"/>
+</item>
+<item historyLabel="Percolation.java" index="0">
+<position info="not_deleted" x="739" y="0"/>
+</item>
+<item historyLabel="Percolation.java" index="0">
+<position info="not_deleted" x="175" y="0"/>
+</item>
+<item historyLabel="PercolationStats.java" index="3">
+<position info="not_deleted" x="1770" y="0"/>
+</item>
+<item historyLabel="PercolationStats.java" index="3">
+<position info="not_deleted" x="241" y="1"/>
+</item>
+<item historyLabel="PercolationStats.java" index="3">
+<position info="not_deleted" x="644" y="0"/>
+</item>
+<item active="true" historyLabel="PercolationStats.java" index="3">
+<position info="not_deleted" x="1776" y="31"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>

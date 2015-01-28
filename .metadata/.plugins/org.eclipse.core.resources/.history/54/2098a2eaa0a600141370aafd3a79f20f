@@ -22,8 +22,6 @@ public class Percolation {
 	 * @param N
 	 */
 	public Percolation(int N){
-		if(N <= 0)
-			throw new IllegalArgumentException("Illegal input!");
 		this.N = N;
 		OpenState = new boolean[N * N];
 		uf1 = new WeightedQuickUnionUF(N * N);
@@ -90,10 +88,7 @@ public class Percolation {
 	 * @return
 	 */
 	public boolean percolates() {
-		if(N == 1)
-			return isFull(1, 1);
-		else
-			return uf2.connected(0, N * N - 1);
+		return uf2.connected(0, N * N - 1);
 	}
 	
 	/**
