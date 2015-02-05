@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="15" version="2.0">
+<workbench progressCount="22" version="2.0">
 <workbenchAdvisor/>
 <window height="715" maximized="true" width="677" x="1811" y="24">
 <fastViewData fastViewLocation="1024">
@@ -18,13 +18,13 @@
 <coolItem id="org.eclipse.debug.ui.main.toolbar" itemType="typeToolBarContribution" x="40" y="30"/>
 <coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="88" y="30"/>
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="88" y="30"/>
-<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="124" y="30"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="68" y="30"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="232" y="30"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
-<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
@@ -33,31 +33,10 @@
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-<part id="1"/>
-<part id="2"/>
-<part id="3"/>
-</presentation>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Deque.java" partName="Deque.java" path="/home/yaokai/Work/algs4/RandomizedQueueAndDeques/src/Deque.java" title="Deque.java" tooltip="RandomizedQueueAndDeques/src/Deque.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/RandomizedQueueAndDeques/src/Deque.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3039" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RandomizedQueue.java" partName="RandomizedQueue.java" path="/home/yaokai/Work/algs4/RandomizedQueueAndDeques/src/RandomizedQueue.java" title="RandomizedQueue.java" tooltip="RandomizedQueueAndDeques/src/RandomizedQueue.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/RandomizedQueueAndDeques/src/RandomizedQueue.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1652" selectionTopPixel="1089"/>
-</editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Subset.java" partName="Subset.java" path="/home/yaokai/Work/algs4/RandomizedQueueAndDeques/src/Subset.java" title="Subset.java" tooltip="RandomizedQueueAndDeques/src/Subset.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/RandomizedQueueAndDeques/src/Subset.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="379" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.ui.DefaultTextEditor" name="test.txt" partName="test.txt" path="/home/yaokai/Work/algs4/RandomizedQueueAndDeques/src/test.txt" title="test.txt" tooltip="RandomizedQueueAndDeques/src/test.txt" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/RandomizedQueueAndDeques/src/test.txt"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="16" selectionTopPixel="0"/>
-</editor>
 </editors>
 <views>
 <view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
@@ -66,8 +45,7 @@
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
-<category IMemento.internal.id="Warnings"/>
-<category IMemento.internal.id="Errors"/>
+<category IMemento.internal.id="Warnings (7 items)"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="397" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.resourceField="105" org.eclipse.ui.ide.severityAndDescriptionField="350"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
@@ -128,7 +106,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspectives activePart="org.eclipse.jdt.ui.PackageExplorer" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.ui.internal.ide.application.ResourcePerspective" id="org.eclipse.ui.resourcePerspective" label="Resource"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -302,166 +280,7 @@
 </perspective>
 </perspectives>
 <workingSets/>
-<navigationHistory>
-<editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/RandomizedQueueAndDeques/src/Deque.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/RandomizedQueueAndDeques/src/RandomizedQueue.java"/>
-<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=RandomizedQueueAndDeques/\/home\/yaokai\/Work\/algs4\/stdlib.jar&lt;(StdRandom.class"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/RandomizedQueueAndDeques/src/Subset.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/RandomizedQueueAndDeques/src/test"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/RandomizedQueueAndDeques/src/test.txt"/>
-</editors>
-<item historyLabel="StdRandom.class" index="2">
-<position info="not_deleted" x="10041" y="0"/>
-</item>
-<item historyLabel="RandomizedQueue.java" index="1">
-<position/>
-</item>
-<item historyLabel="Subset.java" index="3">
-<position info="not_deleted" x="556" y="0"/>
-</item>
-<item historyLabel="RandomizedQueue.java" index="1">
-<position/>
-</item>
-<item historyLabel="Subset.java" index="3">
-<position info="not_deleted" x="556" y="0"/>
-</item>
-<item historyLabel="Subset.java" index="3">
-<position info="not_deleted" x="261" y="0"/>
-</item>
-<item historyLabel="Subset.java" index="3">
-<position info="not_deleted" x="556" y="0"/>
-</item>
-<item historyLabel="Subset.java" index="3">
-<position info="not_deleted" x="260" y="0"/>
-</item>
-<item historyLabel="Subset.java" index="3">
-<position info="not_deleted" x="519" y="0"/>
-</item>
-<item historyLabel="test" index="4">
-<position info="not_deleted" x="17" y="0"/>
-</item>
-<item historyLabel="Subset.java" index="3">
-<position info="not_deleted" x="481" y="0"/>
-</item>
-<item historyLabel="RandomizedQueue.java" index="1">
-<position info="not_deleted" x="2826" y="0"/>
-</item>
-<item historyLabel="Subset.java" index="3">
-<position info="not_deleted" x="481" y="0"/>
-</item>
-<item historyLabel="RandomizedQueue.java" index="1">
-<position info="not_deleted" x="2903" y="0"/>
-</item>
-<item historyLabel="Subset.java" index="3">
-<position info="not_deleted" x="120" y="0"/>
-</item>
-<item historyLabel="RandomizedQueue.java" index="1">
-<position info="not_deleted" x="2357" y="0"/>
-</item>
-<item historyLabel="Subset.java" index="3">
-<position info="not_deleted" x="120" y="0"/>
-</item>
-<item historyLabel="Subset.java" index="3">
-<position info="not_deleted" x="359" y="0"/>
-</item>
-<item historyLabel="Subset.java" index="3">
-<position info="not_deleted" x="403" y="5"/>
-</item>
-<item historyLabel="Subset.java" index="3">
-<position info="not_deleted" x="559" y="0"/>
-</item>
-<item historyLabel="test" index="4">
-<position info="not_deleted" x="17" y="0"/>
-</item>
-<item historyLabel="Subset.java" index="3">
-<position/>
-</item>
-<item historyLabel="test" index="4">
-<position info="not_deleted" x="17" y="0"/>
-</item>
-<item historyLabel="Subset.java" index="3">
-<position/>
-</item>
-<item historyLabel="test" index="4">
-<position info="not_deleted" x="17" y="0"/>
-</item>
-<item historyLabel="RandomizedQueue.java" index="1">
-<position info="not_deleted" x="2357" y="0"/>
-</item>
-<item historyLabel="Subset.java" index="3">
-<position/>
-</item>
-<item historyLabel="Subset.java" index="3">
-<position info="not_deleted" x="310" y="0"/>
-</item>
-<item historyLabel="Subset.java" index="3">
-<position/>
-</item>
-<item historyLabel="test" index="4">
-<position info="not_deleted" x="17" y="0"/>
-</item>
-<item historyLabel="Subset.java" index="3">
-<position/>
-</item>
-<item historyLabel="test.txt" index="5">
-<position info="not_deleted" x="16" y="0"/>
-</item>
-<item historyLabel="Subset.java" index="3">
-<position/>
-</item>
-<item historyLabel="Subset.java" index="3">
-<position/>
-</item>
-<item historyLabel="Subset.java" index="3">
-<position info="not_deleted" x="556" y="0"/>
-</item>
-<item historyLabel="Deque.java" index="0">
-<position info="not_deleted" x="1955" y="0"/>
-</item>
-<item historyLabel="RandomizedQueue.java" index="1">
-<position info="not_deleted" x="2357" y="0"/>
-</item>
-<item historyLabel="Deque.java" index="0">
-<position info="not_deleted" x="1955" y="0"/>
-</item>
-<item historyLabel="Deque.java" index="0">
-<position info="not_deleted" x="1955" y="0"/>
-</item>
-<item historyLabel="Deque.java" index="0">
-<position info="not_deleted" x="428" y="30"/>
-</item>
-<item historyLabel="Deque.java" index="0">
-<position info="not_deleted" x="1927" y="0"/>
-</item>
-<item historyLabel="Deque.java" index="0">
-<position info="not_deleted" x="3347" y="26"/>
-</item>
-<item historyLabel="Deque.java" index="0">
-<position info="not_deleted" x="1927" y="0"/>
-</item>
-<item historyLabel="Deque.java" index="0">
-<position info="not_deleted" x="1965" y="0"/>
-</item>
-<item historyLabel="Deque.java" index="0">
-<position info="not_deleted" x="1927" y="0"/>
-</item>
-<item historyLabel="Deque.java" index="0">
-<position info="not_deleted" x="1927" y="0"/>
-</item>
-<item historyLabel="Deque.java" index="0">
-<position info="not_deleted" x="3039" y="0"/>
-</item>
-<item historyLabel="RandomizedQueue.java" index="1">
-<position info="not_deleted" x="1652" y="0"/>
-</item>
-<item historyLabel="Subset.java" index="3">
-<position info="not_deleted" x="556" y="0"/>
-</item>
-<item active="true" historyLabel="Subset.java" index="3">
-<position info="not_deleted" x="477" y="0"/>
-</item>
-</navigationHistory>
+<navigationHistory/>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
@@ -478,6 +297,9 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Percolation.java" tooltip="Percolation/src/Percolation.java">
+<persistable path="/Percolation/src/Percolation.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="test.txt" tooltip="RandomizedQueueAndDeques/src/test.txt">
 <persistable path="/RandomizedQueueAndDeques/src/test.txt"/>
 </file>
@@ -504,9 +326,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PercolationVisualizer.java" tooltip="Percolation/src/PercolationVisualizer.java">
 <persistable path="/Percolation/src/PercolationVisualizer.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Percolation.java" tooltip="Percolation/src/Percolation.java">
-<persistable path="/Percolation/src/Percolation.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="WeightedQuickUnionUF.java" tooltip="test/src/WeightedQuickUnionUF.java">
 <persistable path="/test/src/WeightedQuickUnionUF.java"/>
