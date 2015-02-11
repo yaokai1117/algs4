@@ -1,0 +1,34 @@
+import java.util.Comparator;
+
+import MergeSort.Item;
+import MergeSort.Item.ById;
+import MergeSort.Item.ByName;
+
+
+private class Student {
+		
+		public static final Comparator<Item> BY_ID = new ById();
+		public static final Comparator<Item> BY_NAME = new ByName();
+		
+		private int id;
+		private String name;
+		
+		public Item (int id, String name) {
+			this.id = id;
+			this.name = name;
+		}
+		
+		private static class ById implements Comparator<Item>{
+			@Override
+			public int compare(Item o1, Item o2) {
+				return o1.id - o1.id;
+			}
+		}
+		
+		private static class ByName implements Comparator<Item> {
+			@Override
+			public int compare(Item o1, Item o2) {
+				return o1.name.compareTo(o2.name);
+			}
+		}
+	}

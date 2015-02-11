@@ -1,0 +1,54 @@
+import java.util.Comparator;
+
+public class MergeSort {
+
+	private static void merge(Object[] a, Object[] aux, int low, int mid, int high, Comparator c) {
+		for (int k = low; k <= high; k++)
+			aux[k] = a[k];
+		
+		int i = low, j = mid + 1;
+		for (int k = low; k <= high; k++){
+			if (i > mid)
+				a[k] = aux[j++];
+			else if (j > high)
+				a[k] = aux[i++];
+			else if (c.compare(aux[j], aux[i]) < 0)
+				a[k] = aux[j++];
+			else 
+				a[k] = aux[i++];
+		}
+	}
+	
+	public static void sort(Object[] a, Object[] aux, int low, int high, Comparator c) {
+		if(low >= high)
+			return;
+		int mid = (low + high) / 2;
+		sort(a, aux, low, mid, c);
+		sort(a, aux, mid+1, high, c);
+		merge(a, aux, low, mid, high, c);
+	}
+	
+	
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Student[] studentList = new Student[10];
+		Student[] aux = new Student[10];
+		for (int i = 0; i < studentList.length; i++) {
+			studentList[i] = new Student(10 - i, i);
+		}
+		
+		sort(studentList, aux, 0, studentList.length-1, Student.BY_ID);
+		for (Student student : studentList) {
+			System.out.println(student);
+		}
+		
+		sort(studentList, aux, 0, studentList.length-1, Student.BY_NAME);
+		for (Student student : studentList) {
+			System.out.println(student);
+		}
+	}
+
+}
