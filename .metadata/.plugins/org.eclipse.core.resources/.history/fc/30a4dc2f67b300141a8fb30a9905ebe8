@@ -1,0 +1,61 @@
+import java.util.Comparator;
+
+
+public class QuickSort {
+
+	private static void swap(Object[] a, int i, int j) {
+		Object temp = a[i];
+		a[i] = a[j];
+		a[j] = temp; 
+	}
+	
+	
+	private static int partition(Object[] a, int low, int high, Comparator c) {
+		int i = low, j = high + 1;
+		while (true){
+			while (c.compare(a[++i], a[low]) < 0)
+				if (i == high) break;
+			while (c.compare(a[--j], a[low]) > 0)
+				if (j == low) break;
+			
+			if (j <= i)
+				break;
+			swap(a, i, j);
+		}
+		swap(a, low, j);
+		return j;
+	}
+	
+	public static void sort(Object[] a, int low, int high, Comparator c) {
+		if (low >= high)
+			return;
+		
+		int pivot = (int)((high-low + 1)*Math.random()) + low;
+		swap(a, low, pivot);
+		
+		pivot = partition(a, low, high, c);
+		sort(a, low, pivot-1, c);
+		sort(a, pivot+1, high, c);
+	}
+	
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Student[] studentList = new Student[10];
+		for (int i = 0; i < studentList.length; i++) {
+			studentList[i] = new Student(10 - i, i + "th");
+		}
+		sort(studentList, 0, studentList.length - 1, Student.BY_ID);
+		for (Student student : studentList) {
+			System.out.println(student);
+		}
+		
+		sort(studentList, 0, studentList.length - 1, Student.BY_NAME);
+		for (Student student : studentList) {
+			System.out.println(student);
+		}
+	}
+
+}
