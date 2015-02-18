@@ -22,7 +22,7 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="232" y="30"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
@@ -37,21 +37,26 @@
 <part id="0"/>
 <part id="1"/>
 <part id="2"/>
+<part id="3"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Student.java" partName="Student.java" path="/home/yaokai/Work/algs4/Sort/src/Student.java" title="Student.java" tooltip="Sort/src/Student.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Sort/src/Student.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="554" selectionTopPixel="143"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Point.java" partName="Point.java" path="/home/yaokai/Work/algs4/CollinearPoints/src/Point.java" title="Point.java" tooltip="CollinearPoints/src/Point.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CollinearPoints/src/Point.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1303" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MergeSort.java" partName="MergeSort.java" path="/home/yaokai/Work/algs4/Sort/src/MergeSort.java" title="MergeSort.java" tooltip="Sort/src/MergeSort.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Sort/src/MergeSort.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2429" selectionTopPixel="1401"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Brute.java" partName="Brute.java" path="/home/yaokai/Work/algs4/CollinearPoints/src/Brute.java" title="Brute.java" tooltip="CollinearPoints/src/Brute.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CollinearPoints/src/Brute.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="568" selectionTopPixel="181"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="QuickSort.java" partName="QuickSort.java" path="/home/yaokai/Work/algs4/Sort/src/QuickSort.java" title="QuickSort.java" tooltip="Sort/src/QuickSort.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Sort/src/QuickSort.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1250" selectionTopPixel="784"/>
+<editor id="org.eclipse.ui.DefaultTextEditor" name="input6.txt" partName="input6.txt" path="/home/yaokai/Work/algs4/CollinearPoints/src/input6.txt" title="input6.txt" tooltip="CollinearPoints/src/input6.txt" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CollinearPoints/src/input6.txt"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="105" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Fast.java" partName="Fast.java" path="/home/yaokai/Work/algs4/CollinearPoints/src/Fast.java" title="Fast.java" tooltip="CollinearPoints/src/Fast.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CollinearPoints/src/Fast.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="720" selectionTopPixel="330"/>
 </editor>
 </editors>
 <views>
@@ -61,8 +66,8 @@
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
+<category IMemento.internal.id="Warnings (34 items)"/>
 <category IMemento.internal.id="Errors"/>
-<category IMemento.internal.id="Warnings"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="408" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.resourceField="105" org.eclipse.ui.ide.severityAndDescriptionField="350"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
@@ -299,159 +304,160 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Sort/src/QuickSort.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Sort/src/MergeSort.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Sort/src/Student.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/CollinearPoints/src/Point.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/CollinearPoints/src/Brute.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/CollinearPoints/src/input6.txt"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/CollinearPoints/src/Fast.java"/>
 </editors>
-<item historyLabel="Student.java" index="2">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="input6.txt" index="2">
+<position info="not_deleted" x="105" y="0"/>
 </item>
-<item historyLabel="MergeSort.java" index="1">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="Brute.java" index="1">
+<position info="not_deleted" x="385" y="0"/>
 </item>
-<item historyLabel="QuickSort.java" index="0">
-<position info="not_deleted" x="215" y="0"/>
+<item historyLabel="input6.txt" index="2">
+<position info="not_deleted" x="105" y="0"/>
 </item>
-<item historyLabel="MergeSort.java" index="1">
-<position info="not_deleted" x="2505" y="0"/>
+<item historyLabel="Brute.java" index="1">
+<position info="not_deleted" x="886" y="0"/>
 </item>
-<item historyLabel="Student.java" index="2">
-<position info="not_deleted" x="554" y="0"/>
+<item historyLabel="Point.java" index="0">
+<position info="not_deleted" x="2774" y="0"/>
 </item>
-<item historyLabel="MergeSort.java" index="1">
-<position info="not_deleted" x="2505" y="0"/>
+<item historyLabel="Brute.java" index="1">
+<position info="not_deleted" x="966" y="0"/>
 </item>
-<item historyLabel="MergeSort.java" index="1">
-<position info="not_deleted" x="1761" y="0"/>
+<item historyLabel="Point.java" index="0">
+<position info="not_deleted" x="2774" y="0"/>
 </item>
-<item historyLabel="MergeSort.java" index="1">
-<position info="not_deleted" x="1774" y="0"/>
+<item historyLabel="Brute.java" index="1">
+<position info="not_deleted" x="571" y="0"/>
 </item>
-<item historyLabel="MergeSort.java" index="1">
-<position info="not_deleted" x="1782" y="0"/>
+<item historyLabel="Point.java" index="0">
+<position info="not_deleted" x="1303" y="0"/>
 </item>
-<item historyLabel="MergeSort.java" index="1">
-<position info="not_deleted" x="1852" y="0"/>
+<item historyLabel="Brute.java" index="1">
+<position info="not_deleted" x="571" y="0"/>
 </item>
-<item historyLabel="MergeSort.java" index="1">
-<position info="not_deleted" x="1896" y="0"/>
+<item historyLabel="Brute.java" index="1">
+<position info="not_deleted" x="263" y="0"/>
 </item>
-<item historyLabel="MergeSort.java" index="1">
-<position info="not_deleted" x="1940" y="1"/>
+<item historyLabel="Brute.java" index="1">
+<position info="not_deleted" x="270" y="0"/>
 </item>
-<item historyLabel="MergeSort.java" index="1">
-<position info="not_deleted" x="1948" y="3"/>
+<item historyLabel="Brute.java" index="1">
+<position info="not_deleted" x="429" y="0"/>
 </item>
-<item historyLabel="MergeSort.java" index="1">
-<position info="not_deleted" x="1956" y="0"/>
-</item>
-<item historyLabel="MergeSort.java" index="1">
-<position info="not_deleted" x="1984" y="1"/>
-</item>
-<item historyLabel="MergeSort.java" index="1">
-<position info="not_deleted" x="1999" y="0"/>
-</item>
-<item historyLabel="MergeSort.java" index="1">
-<position info="not_deleted" x="2001" y="4"/>
-</item>
-<item historyLabel="MergeSort.java" index="1">
-<position info="not_deleted" x="2007" y="1"/>
-</item>
-<item historyLabel="MergeSort.java" index="1">
-<position info="not_deleted" x="525" y="0"/>
-</item>
-<item historyLabel="MergeSort.java" index="1">
-<position info="not_deleted" x="517" y="0"/>
-</item>
-<item historyLabel="MergeSort.java" index="1">
-<position info="not_deleted" x="525" y="0"/>
-</item>
-<item historyLabel="MergeSort.java" index="1">
+<item historyLabel="Brute.java" index="1">
 <position/>
 </item>
-<item historyLabel="MergeSort.java" index="1">
-<position info="not_deleted" x="951" y="0"/>
+<item historyLabel="Brute.java" index="1">
+<position/>
 </item>
-<item historyLabel="MergeSort.java" index="1">
+<item historyLabel="Brute.java" index="1">
+<position info="not_deleted" x="238" y="0"/>
+</item>
+<item historyLabel="input6.txt" index="2">
+<position info="not_deleted" x="105" y="0"/>
+</item>
+<item historyLabel="Brute.java" index="1">
+<position info="not_deleted" x="238" y="0"/>
+</item>
+<item historyLabel="Brute.java" index="1">
+<position info="not_deleted" x="845" y="0"/>
+</item>
+<item historyLabel="Fast.java" index="3">
 <position info="not_deleted" x="592" y="0"/>
 </item>
-<item historyLabel="MergeSort.java" index="1">
-<position info="not_deleted" x="951" y="0"/>
+<item historyLabel="Brute.java" index="1">
+<position info="not_deleted" x="157" y="285"/>
 </item>
-<item historyLabel="MergeSort.java" index="1">
-<position info="not_deleted" x="630" y="0"/>
+<item historyLabel="Fast.java" index="3">
+<position info="not_deleted" x="592" y="0"/>
 </item>
-<item historyLabel="MergeSort.java" index="1">
-<position info="not_deleted" x="640" y="0"/>
+<item historyLabel="input6.txt" index="2">
+<position info="not_deleted" x="105" y="0"/>
 </item>
-<item historyLabel="MergeSort.java" index="1">
-<position info="not_deleted" x="647" y="0"/>
+<item historyLabel="Brute.java" index="1">
+<position info="not_deleted" x="445" y="60"/>
 </item>
-<item historyLabel="MergeSort.java" index="1">
+<item historyLabel="Fast.java" index="3">
+<position info="not_deleted" x="592" y="0"/>
+</item>
+<item historyLabel="Fast.java" index="3">
+<position info="not_deleted" x="274" y="0"/>
+</item>
+<item historyLabel="Fast.java" index="3">
+<position info="not_deleted" x="299" y="0"/>
+</item>
+<item historyLabel="Fast.java" index="3">
+<position info="not_deleted" x="330" y="0"/>
+</item>
+<item historyLabel="Fast.java" index="3">
+<position info="not_deleted" x="346" y="0"/>
+</item>
+<item historyLabel="Fast.java" index="3">
+<position info="not_deleted" x="357" y="0"/>
+</item>
+<item historyLabel="Fast.java" index="3">
+<position info="not_deleted" x="359" y="0"/>
+</item>
+<item historyLabel="Fast.java" index="3">
+<position info="not_deleted" x="182" y="26"/>
+</item>
+<item historyLabel="Fast.java" index="3">
+<position info="not_deleted" x="621" y="0"/>
+</item>
+<item historyLabel="Fast.java" index="3">
+<position info="not_deleted" x="724" y="0"/>
+</item>
+<item historyLabel="Fast.java" index="3">
 <position info="not_deleted" x="727" y="0"/>
 </item>
-<item historyLabel="MergeSort.java" index="1">
-<position info="not_deleted" x="753" y="0"/>
+<item historyLabel="Point.java" index="0">
+<position info="not_deleted" x="1303" y="0"/>
 </item>
-<item historyLabel="MergeSort.java" index="1">
-<position info="not_deleted" x="764" y="0"/>
+<item historyLabel="Fast.java" index="3">
+<position info="not_deleted" x="727" y="0"/>
 </item>
-<item historyLabel="MergeSort.java" index="1">
-<position info="not_deleted" x="796" y="0"/>
+<item historyLabel="Fast.java" index="3">
+<position info="not_deleted" x="777" y="0"/>
 </item>
-<item historyLabel="MergeSort.java" index="1">
-<position info="not_deleted" x="807" y="0"/>
+<item historyLabel="Brute.java" index="1">
+<position info="not_deleted" x="568" y="0"/>
 </item>
-<item historyLabel="MergeSort.java" index="1">
-<position info="not_deleted" x="837" y="0"/>
+<item historyLabel="Fast.java" index="3">
+<position info="not_deleted" x="777" y="0"/>
 </item>
-<item historyLabel="MergeSort.java" index="1">
-<position info="not_deleted" x="846" y="0"/>
+<item historyLabel="Fast.java" index="3">
+<position info="not_deleted" x="907" y="0"/>
 </item>
-<item historyLabel="MergeSort.java" index="1">
-<position info="not_deleted" x="861" y="0"/>
+<item historyLabel="Brute.java" index="1">
+<position info="not_deleted" x="568" y="0"/>
 </item>
-<item historyLabel="MergeSort.java" index="1">
-<position info="not_deleted" x="898" y="0"/>
+<item historyLabel="Fast.java" index="3">
+<position info="not_deleted" x="907" y="0"/>
 </item>
-<item historyLabel="MergeSort.java" index="1">
-<position info="not_deleted" x="933" y="0"/>
+<item historyLabel="Fast.java" index="3">
+<position info="not_deleted" x="856" y="0"/>
 </item>
-<item historyLabel="MergeSort.java" index="1">
-<position info="not_deleted" x="931" y="0"/>
+<item historyLabel="Fast.java" index="3">
+<position info="not_deleted" x="592" y="0"/>
 </item>
-<item historyLabel="MergeSort.java" index="1">
-<position info="not_deleted" x="2028" y="1"/>
+<item historyLabel="Fast.java" index="3">
+<position info="not_deleted" x="671" y="0"/>
 </item>
-<item historyLabel="MergeSort.java" index="1">
-<position info="not_deleted" x="2031" y="3"/>
+<item historyLabel="Fast.java" index="3">
+<position info="not_deleted" x="835" y="0"/>
 </item>
-<item historyLabel="MergeSort.java" index="1">
-<position info="not_deleted" x="2036" y="3"/>
+<item historyLabel="Fast.java" index="3">
+<position info="not_deleted" x="850" y="0"/>
 </item>
-<item historyLabel="MergeSort.java" index="1">
-<position info="not_deleted" x="2041" y="3"/>
+<item historyLabel="Fast.java" index="3">
+<position info="not_deleted" x="856" y="0"/>
 </item>
-<item historyLabel="MergeSort.java" index="1">
-<position info="not_deleted" x="2046" y="4"/>
-</item>
-<item historyLabel="MergeSort.java" index="1">
-<position info="not_deleted" x="2052" y="1"/>
-</item>
-<item historyLabel="MergeSort.java" index="1">
-<position info="not_deleted" x="2864" y="0"/>
-</item>
-<item historyLabel="MergeSort.java" index="1">
-<position info="not_deleted" x="2888" y="0"/>
-</item>
-<item historyLabel="MergeSort.java" index="1">
-<position info="not_deleted" x="2731" y="0"/>
-</item>
-<item historyLabel="MergeSort.java" index="1">
-<position info="not_deleted" x="2429" y="0"/>
-</item>
-<item active="true" historyLabel="QuickSort.java" index="0">
-<position info="not_deleted" x="215" y="0"/>
+<item active="true" historyLabel="Fast.java" index="3">
+<position info="not_deleted" x="893" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -470,14 +476,29 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Fast.java" tooltip="CollinearPoints/src/Fast.java">
+<persistable path="/CollinearPoints/src/Fast.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="input6.txt" tooltip="CollinearPoints/src/input6.txt">
+<persistable path="/CollinearPoints/src/input6.txt"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PercolationVisualizer.java" tooltip="Percolation/src/PercolationVisualizer.java">
+<persistable path="/Percolation/src/PercolationVisualizer.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Brute.java" tooltip="CollinearPoints/src/Brute.java">
+<persistable path="/CollinearPoints/src/Brute.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Student.java" tooltip="Sort/src/Student.java">
+<persistable path="/Sort/src/Student.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Point.java" tooltip="CollinearPoints/src/Point.java">
+<persistable path="/CollinearPoints/src/Point.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="QuickSort.java" tooltip="Sort/src/QuickSort.java">
 <persistable path="/Sort/src/QuickSort.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MergeSort.java" tooltip="Sort/src/MergeSort.java">
 <persistable path="/Sort/src/MergeSort.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Student.java" tooltip="Sort/src/Student.java">
-<persistable path="/Sort/src/Student.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Students.java" tooltip="Sort/src/Students.java">
 <persistable path="/Sort/src/Students.java"/>
@@ -499,21 +520,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SelectionSort.java" tooltip="ElementarySort/src/SelectionSort.java">
 <persistable path="/ElementarySort/src/SelectionSort.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Percolation.java" tooltip="Percolation/src/Percolation.java">
-<persistable path="/Percolation/src/Percolation.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="test.txt" tooltip="RandomizedQueueAndDeques/src/test.txt">
-<persistable path="/RandomizedQueueAndDeques/src/test.txt"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="test" tooltip="RandomizedQueueAndDeques/src/test">
-<persistable path="/RandomizedQueueAndDeques/src/test"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Subset.java" tooltip="RandomizedQueueAndDeques/src/Subset.java">
-<persistable path="/RandomizedQueueAndDeques/src/Subset.java"/>
-</file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="StdRandom.class" tooltip="StdRandom">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=RandomizedQueueAndDeques/\/home\/yaokai\/Work\/algs4\/stdlib.jar&lt;(StdRandom.class"/>
 </file>
 </mruList>
 </workbench>
