@@ -29,17 +29,13 @@
 <fullyQualifiedTypeName name="org.omg.CORBA.PRIVATE_MEMBER"/>
 <fullyQualifiedTypeName name="MergeSort.Item"/>
 <fullyQualifiedTypeName name="MergeSort.Item.ByName"/>
-<fullyQualifiedTypeName name="javax.naming.ldap.SortControl"/>
 <fullyQualifiedTypeName name="org.omg.CORBA.OBJ_ADAPTER"/>
 <fullyQualifiedTypeName name="InsertSort"/>
 <fullyQualifiedTypeName name="java.lang.Math"/>
-<fullyQualifiedTypeName name="java.lang.Object"/>
 <fullyQualifiedTypeName name="org.omg.PortableServer.ID_ASSIGNMENT_POLICY_ID"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
-<fullyQualifiedTypeName name="Student"/>
 <fullyQualifiedTypeName name="java.lang.Double"/>
 <fullyQualifiedTypeName name="Picture"/>
-<fullyQualifiedTypeName name="Point.BySlope"/>
 <fullyQualifiedTypeName name="java.lang.Integer"/>
 <fullyQualifiedTypeName name="java.io.FileInputStream"/>
 <fullyQualifiedTypeName name="StdIn"/>
@@ -48,6 +44,10 @@
 <fullyQualifiedTypeName name="StdDraw"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="javax.security.auth.kerberos.KerberosKey"/>
-<fullyQualifiedTypeName name="java.util.Comparator"/>
+<fullyQualifiedTypeName name="Point.BySlope"/>
 <fullyQualifiedTypeName name="Point"/>
+<fullyQualifiedTypeName name="java.lang.Object"/>
+<fullyQualifiedTypeName name="java.util.Comparator"/>
+<fullyQualifiedTypeName name="javax.naming.ldap.SortControl"/>
+<fullyQualifiedTypeName name="Student"/>
 </qualifiedTypeNameHistroy>

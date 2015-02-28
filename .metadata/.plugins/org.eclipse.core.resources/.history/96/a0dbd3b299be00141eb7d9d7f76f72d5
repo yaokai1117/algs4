@@ -1,0 +1,19 @@
+
+public class Board {
+	private int[][] blocks;
+	
+	public Board(int[][] blocks) {
+		// TODO Auto-generated constructor stub
+		
+	}
+	
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int[][] test = new int[10][10];
+		System.out.println(test.length);
+	}
+
+}
