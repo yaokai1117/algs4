@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workbench progressCount="22" version="2.0">
 <workbenchAdvisor/>
-<window height="715" maximized="true" width="677" x="0" y="0">
+<window height="686" maximized="true" width="671" x="140" y="29">
 <fastViewData fastViewLocation="1024">
 <orientation position="512" view="org.eclipse.ui.console.ConsoleView"/>
 <orientation position="512" view="org.eclipse.jdt.ui.SourceView"/>
@@ -22,7 +22,7 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="232" y="30"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
@@ -35,13 +35,33 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Particle.java" partName="Particle.java" path="/home/yaokai/Work/algs4/Nbody/src/Particle.java" title="Particle.java" tooltip="Nbody/src/Particle.java" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Particle.java" partName="Particle.java" path="/home/yaokai/Work/algs4/Nbody/src/Particle.java" title="Particle.java" tooltip="Nbody/src/Particle.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Nbody/src/Particle.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="138" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2092" selectionTopPixel="1242"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Event.java" partName="Event.java" path="/home/yaokai/Work/algs4/Nbody/src/Event.java" title="Event.java" tooltip="Nbody/src/Event.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Nbody/src/Event.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="604" selectionTopPixel="154"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CollisionSystem.java" partName="CollisionSystem.java" path="/home/yaokai/Work/algs4/Nbody/src/CollisionSystem.java" title="CollisionSystem.java" tooltip="Nbody/src/CollisionSystem.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Nbody/src/CollisionSystem.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1568" selectionTopPixel="913"/>
+</editor>
+<editor id="org.eclipse.ui.DefaultTextEditor" name="test" partName="test" path="/home/yaokai/Work/algs4/Nbody/src/test" title="test" tooltip="Nbody/src/test" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Nbody/src/test"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2903" selectionTopPixel="1260"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestBuilder.java" partName="TestBuilder.java" path="/home/yaokai/Work/algs4/Nbody/src/TestBuilder.java" title="TestBuilder.java" tooltip="Nbody/src/TestBuilder.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Nbody/src/TestBuilder.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="708" selectionTopPixel="109"/>
 </editor>
 </editors>
 <views>
@@ -50,6 +70,9 @@
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<expanded>
+<category IMemento.internal.id="Errors"/>
+</expanded>
 <columnWidths org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="408" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.resourceField="105" org.eclipse.ui.ide.severityAndDescriptionField="350"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
@@ -285,162 +308,162 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Sort/src/HeapSort.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Sort/src/QuickSort.java"/>
-<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=EightPuzzle/\/home\/yaokai\/Work\/algs4\/algs4.jar&lt;(FarthestPair.class"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/EightPuzzle/src/Board.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Sort/src/QuickSort.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Nbody/src/CollisionSystem.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/Nbody/src/test"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Nbody/src/TestBuilder.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Nbody/src/Particle.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Nbody/src/Event.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/Nbody/src/test2"/>
 </editors>
-<item historyLabel="HeapSort.java" index="0">
+<item historyLabel="Event.java" index="4">
+<position info="not_deleted" x="604" y="0"/>
+</item>
+<item historyLabel="TestBuilder.java" index="2">
+<position info="not_deleted" x="683" y="0"/>
+</item>
+<item historyLabel="test" index="1">
+<position info="not_deleted" x="2" y="0"/>
+</item>
+<item historyLabel="CollisionSystem.java" index="0">
+<position info="not_deleted" x="1279" y="0"/>
+</item>
+<item historyLabel="Event.java" index="4">
+<position info="not_deleted" x="604" y="0"/>
+</item>
+<item historyLabel="Particle.java" index="3">
+<position info="not_deleted" x="2092" y="0"/>
+</item>
+<item historyLabel="CollisionSystem.java" index="0">
+<position info="not_deleted" x="1279" y="0"/>
+</item>
+<item historyLabel="TestBuilder.java" index="2">
+<position info="not_deleted" x="683" y="0"/>
+</item>
+<item historyLabel="test" index="1">
+<position info="not_deleted" x="3933" y="0"/>
+</item>
+<item historyLabel="TestBuilder.java" index="2">
+<position info="not_deleted" x="683" y="0"/>
+</item>
+<item historyLabel="CollisionSystem.java" index="0">
+<position info="not_deleted" x="1279" y="0"/>
+</item>
+<item historyLabel="TestBuilder.java" index="2">
+<position info="not_deleted" x="683" y="0"/>
+</item>
+<item historyLabel="CollisionSystem.java" index="0">
+<position info="not_deleted" x="1569" y="0"/>
+</item>
+<item historyLabel="TestBuilder.java" index="2">
 <position/>
 </item>
-<item historyLabel="HeapSort.java" index="0">
-<position info="not_deleted" x="451" y="0"/>
+<item historyLabel="test" index="1">
+<position info="not_deleted" x="3933" y="0"/>
 </item>
-<item historyLabel="FarthestPair.class" index="2">
+<item historyLabel="TestBuilder.java" index="2">
+<position info="not_deleted" x="420" y="0"/>
+</item>
+<item historyLabel="test2" index="5">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="HeapSort.java" index="0">
-<position info="not_deleted" x="451" y="0"/>
+<item historyLabel="CollisionSystem.java" index="0">
+<position info="not_deleted" x="1217" y="0"/>
 </item>
-<item historyLabel="HeapSort.java" index="0">
-<position info="not_deleted" x="248" y="0"/>
+<item historyLabel="test" index="1">
+<position info="not_deleted" x="3933" y="0"/>
 </item>
-<item historyLabel="HeapSort.java" index="0">
-<position info="not_deleted" x="197" y="0"/>
+<item historyLabel="CollisionSystem.java" index="0">
+<position info="not_deleted" x="1217" y="0"/>
 </item>
-<item historyLabel="HeapSort.java" index="0">
-<position info="not_deleted" x="209" y="0"/>
+<item historyLabel="test2" index="5">
+<position info="not_deleted" x="2" y="0"/>
 </item>
-<item historyLabel="HeapSort.java" index="0">
-<position info="not_deleted" x="212" y="0"/>
+<item historyLabel="TestBuilder.java" index="2">
+<position info="not_deleted" x="420" y="0"/>
 </item>
-<item historyLabel="HeapSort.java" index="0">
-<position info="not_deleted" x="219" y="0"/>
+<item historyLabel="test2" index="5">
+<position info="not_deleted" x="2" y="0"/>
 </item>
-<item historyLabel="HeapSort.java" index="0">
-<position info="not_deleted" x="230" y="1"/>
+<item historyLabel="TestBuilder.java" index="2">
+<position info="not_deleted" x="420" y="0"/>
 </item>
-<item historyLabel="HeapSort.java" index="0">
-<position info="not_deleted" x="234" y="0"/>
+<item historyLabel="CollisionSystem.java" index="0">
+<position info="not_deleted" x="1217" y="0"/>
 </item>
-<item historyLabel="HeapSort.java" index="0">
-<position info="not_deleted" x="1132" y="0"/>
+<item historyLabel="TestBuilder.java" index="2">
+<position info="not_deleted" x="420" y="0"/>
 </item>
-<item historyLabel="QuickSort.java" index="1">
-<position info="not_deleted" x="1964" y="163"/>
+<item historyLabel="test" index="1">
+<position info="not_deleted" x="2903" y="0"/>
 </item>
-<item historyLabel="HeapSort.java" index="0">
-<position info="not_deleted" x="1132" y="0"/>
+<item historyLabel="test2" index="5">
+<position info="not_deleted" x="2" y="0"/>
 </item>
-<item historyLabel="QuickSort.java" index="1">
-<position info="not_deleted" x="2383" y="2"/>
+<item historyLabel="TestBuilder.java" index="2">
+<position/>
 </item>
-<item historyLabel="HeapSort.java" index="0">
-<position info="not_deleted" x="1132" y="0"/>
+<item historyLabel="test2" index="5">
+<position info="not_deleted" x="2" y="0"/>
 </item>
-<item historyLabel="HeapSort.java" index="0">
-<position info="not_deleted" x="914" y="0"/>
+<item historyLabel="TestBuilder.java" index="2">
+<position/>
 </item>
-<item historyLabel="HeapSort.java" index="0">
-<position info="not_deleted" x="1132" y="0"/>
+<item historyLabel="test2" index="5">
+<position info="not_deleted" x="2" y="0"/>
 </item>
-<item historyLabel="HeapSort.java" index="0">
-<position info="not_deleted" x="924" y="7"/>
+<item historyLabel="CollisionSystem.java" index="0">
+<position info="not_deleted" x="1217" y="0"/>
 </item>
-<item historyLabel="HeapSort.java" index="0">
-<position info="not_deleted" x="984" y="0"/>
+<item historyLabel="TestBuilder.java" index="2">
+<position/>
 </item>
-<item historyLabel="HeapSort.java" index="0">
-<position info="not_deleted" x="1015" y="0"/>
+<item historyLabel="test2" index="5">
+<position info="not_deleted" x="2" y="0"/>
 </item>
-<item historyLabel="HeapSort.java" index="0">
-<position info="not_deleted" x="1017" y="0"/>
+<item historyLabel="CollisionSystem.java" index="0">
+<position info="not_deleted" x="1217" y="0"/>
 </item>
-<item historyLabel="HeapSort.java" index="0">
-<position info="not_deleted" x="413" y="33"/>
+<item historyLabel="TestBuilder.java" index="2">
+<position/>
 </item>
-<item historyLabel="HeapSort.java" index="0">
-<position info="not_deleted" x="412" y="0"/>
+<item historyLabel="test2" index="5">
+<position info="not_deleted" x="2" y="0"/>
 </item>
-<item historyLabel="HeapSort.java" index="0">
-<position info="not_deleted" x="413" y="33"/>
+<item historyLabel="CollisionSystem.java" index="0">
+<position info="not_deleted" x="1568" y="0"/>
 </item>
-<item historyLabel="HeapSort.java" index="0">
-<position info="not_deleted" x="457" y="0"/>
+<item historyLabel="test2" index="5">
+<position info="not_deleted" x="2" y="0"/>
 </item>
-<item historyLabel="HeapSort.java" index="0">
-<position info="not_deleted" x="162" y="20"/>
+<item historyLabel="CollisionSystem.java" index="0">
+<position info="not_deleted" x="1568" y="0"/>
 </item>
-<item historyLabel="HeapSort.java" index="0">
-<position info="not_deleted" x="413" y="33"/>
+<item historyLabel="TestBuilder.java" index="2">
+<position info="not_deleted" x="317" y="0"/>
 </item>
-<item historyLabel="HeapSort.java" index="0">
-<position info="not_deleted" x="162" y="20"/>
+<item historyLabel="CollisionSystem.java" index="0">
+<position info="not_deleted" x="1568" y="0"/>
 </item>
-<item historyLabel="HeapSort.java" index="0">
-<position info="not_deleted" x="413" y="33"/>
+<item historyLabel="TestBuilder.java" index="2">
+<position info="not_deleted" x="708" y="0"/>
 </item>
-<item historyLabel="HeapSort.java" index="0">
-<position info="not_deleted" x="337" y="0"/>
+<item historyLabel="CollisionSystem.java" index="0">
+<position info="not_deleted" x="1568" y="0"/>
 </item>
-<item historyLabel="HeapSort.java" index="0">
-<position info="not_deleted" x="357" y="46"/>
+<item historyLabel="TestBuilder.java" index="2">
+<position info="not_deleted" x="708" y="0"/>
 </item>
-<item historyLabel="HeapSort.java" index="0">
-<position info="not_deleted" x="457" y="0"/>
+<item historyLabel="test" index="1">
+<position info="not_deleted" x="2903" y="0"/>
 </item>
-<item historyLabel="HeapSort.java" index="0">
-<position info="not_deleted" x="357" y="46"/>
+<item historyLabel="CollisionSystem.java" index="0">
+<position info="not_deleted" x="1568" y="0"/>
 </item>
-<item historyLabel="HeapSort.java" index="0">
-<position info="not_deleted" x="162" y="20"/>
+<item historyLabel="TestBuilder.java" index="2">
+<position info="not_deleted" x="708" y="0"/>
 </item>
-<item historyLabel="HeapSort.java" index="0">
-<position info="not_deleted" x="357" y="46"/>
-</item>
-<item historyLabel="HeapSort.java" index="0">
-<position info="not_deleted" x="253" y="0"/>
-</item>
-<item historyLabel="HeapSort.java" index="0">
-<position info="not_deleted" x="378" y="0"/>
-</item>
-<item historyLabel="HeapSort.java" index="0">
-<position info="not_deleted" x="162" y="20"/>
-</item>
-<item historyLabel="HeapSort.java" index="0">
-<position info="not_deleted" x="251" y="0"/>
-</item>
-<item historyLabel="HeapSort.java" index="0">
-<position info="not_deleted" x="881" y="35"/>
-</item>
-<item historyLabel="HeapSort.java" index="0">
-<position info="not_deleted" x="357" y="46"/>
-</item>
-<item historyLabel="HeapSort.java" index="0">
-<position info="not_deleted" x="492" y="0"/>
-</item>
-<item historyLabel="HeapSort.java" index="0">
-<position info="not_deleted" x="162" y="20"/>
-</item>
-<item historyLabel="HeapSort.java" index="0">
-<position info="not_deleted" x="357" y="46"/>
-</item>
-<item historyLabel="Board.java" index="3">
-<position info="not_deleted" x="281" y="9"/>
-</item>
-<item historyLabel="HeapSort.java" index="0">
-<position info="not_deleted" x="459" y="0"/>
-</item>
-<item historyLabel="HeapSort.java" index="0">
-<position info="not_deleted" x="874" y="0"/>
-</item>
-<item historyLabel="QuickSort.java" index="4">
-<position info="not_deleted" x="2383" y="2"/>
-</item>
-<item active="true" historyLabel="Particle.java" index="5">
-<position info="not_deleted" x="0" y="0"/>
+<item active="true" historyLabel="CollisionSystem.java" index="0">
+<position info="not_deleted" x="1568" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -448,6 +471,9 @@
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
+<trimArea IMemento.internal.id="16384">
+<trimItem IMemento.internal.id="left"/>
+</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 </trimArea>
@@ -455,10 +481,38 @@
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+<trimItem IMemento.internal.id="bottom"/>
 </trimArea>
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="test2" tooltip="Nbody/src/test2">
+<persistable path="/Nbody/src/test2"/>
+</file>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Out.class" tooltip="Out">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Nbody/\/home\/yaokai\/Work\/algs4\/stdlib.jar&lt;(Out.class"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestBuilder.java" tooltip="Nbody/src/TestBuilder.java">
+<persistable path="/Nbody/src/TestBuilder.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Fast.java" tooltip="CollinearPoints/src/Fast.java">
+<persistable path="/CollinearPoints/src/Fast.java"/>
+</file>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="MinPQ.class" tooltip="MinPQ">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Nbody/\/home\/yaokai\/Work\/algs4\/algs4.jar&lt;(MinPQ.class"/>
+</file>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="StdDraw.class" tooltip="StdDraw">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=CollinearPoints/\/home\/yaokai\/Work\/algs4\/stdlib.jar&lt;(StdDraw.class"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="test" tooltip="Nbody/src/test">
+<persistable path="/Nbody/src/test"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CollisionSystem.java" tooltip="Nbody/src/CollisionSystem.java">
+<persistable path="/Nbody/src/CollisionSystem.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Event.java" tooltip="Nbody/src/Event.java">
+<persistable path="/Nbody/src/Event.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Particle.java" tooltip="Nbody/src/Particle.java">
 <persistable path="/Nbody/src/Particle.java"/>
 </file>
@@ -476,33 +530,6 @@
 </file>
 <file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Heap.class" tooltip="Heap">
 <persistable org.eclipse.jdt.ui.ClassFileIdentifier="=EightPuzzle/\/home\/yaokai\/Work\/algs4\/algs4.jar&lt;(Heap.class"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="HeapSort.java" tooltip="Sort/src/HeapSort.java">
-<persistable path="/Sort/src/HeapSort.java"/>
-</file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="MaxPQ.class" tooltip="MaxPQ">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=EightPuzzle/\/home\/yaokai\/Work\/algs4\/algs4.jar&lt;(MaxPQ.class"/>
-</file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="FFT.class" tooltip="FFT">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=EightPuzzle/\/home\/yaokai\/Work\/algs4\/algs4.jar&lt;(FFT.class"/>
-</file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="BTree.class" tooltip="BTree">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=EightPuzzle/\/home\/yaokai\/Work\/algs4\/algs4.jar&lt;(BTree.class"/>
-</file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Bag.class" tooltip="Bag">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=EightPuzzle/\/home\/yaokai\/Work\/algs4\/algs4.jar&lt;(Bag.class"/>
-</file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Alphabet.class" tooltip="Alphabet">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=EightPuzzle/\/home\/yaokai\/Work\/algs4\/algs4.jar&lt;(Alphabet.class"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Ball.java" tooltip="Nbody/src/Ball.java">
-<persistable path="/Nbody/src/Ball.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Fast.java" tooltip="CollinearPoints/src/Fast.java">
-<persistable path="/CollinearPoints/src/Fast.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="input6.txt" tooltip="CollinearPoints/src/input6.txt">
-<persistable path="/CollinearPoints/src/input6.txt"/>
 </file>
 </mruList>
 </workbench>

@@ -1,0 +1,48 @@
+
+public class Event implements Comparable<Event> {
+	private final double time;
+	private Particle a, b;
+	private int countA, countB;
+	
+	public Event(double time, Particle a, Particle b) {
+		// TODO Auto-generated constructor stub
+		this.time = time;
+		this.a = a;
+		this.b = b;
+		countA = a.getCount();
+		countB = b.getCount();
+	}
+	
+	public Particle getA(){
+		return a;
+	}
+	
+	public Particle getB() {
+		return b;
+	}
+	
+	public int getTime() {
+		return time;
+	}
+	
+	@Override
+	public int compareTo(Event o) {
+		// TODO Auto-generated method stub
+		return (int)(this.time - o.time);
+	}
+	
+	public boolean isValid() {
+		return a.getCount() == countA && b.getCount() == countB;
+	}
+	
+	
+	
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

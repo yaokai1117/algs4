@@ -31,17 +31,13 @@
 <fullyQualifiedTypeName name="MergeSort.Item.ByName"/>
 <fullyQualifiedTypeName name="org.omg.CORBA.OBJ_ADAPTER"/>
 <fullyQualifiedTypeName name="InsertSort"/>
-<fullyQualifiedTypeName name="java.lang.Math"/>
 <fullyQualifiedTypeName name="org.omg.PortableServer.ID_ASSIGNMENT_POLICY_ID"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
-<fullyQualifiedTypeName name="java.lang.Double"/>
 <fullyQualifiedTypeName name="Picture"/>
 <fullyQualifiedTypeName name="java.lang.Integer"/>
 <fullyQualifiedTypeName name="java.io.FileInputStream"/>
 <fullyQualifiedTypeName name="StdIn"/>
-<fullyQualifiedTypeName name="In"/>
 <fullyQualifiedTypeName name="StdOut"/>
-<fullyQualifiedTypeName name="StdDraw"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="javax.security.auth.kerberos.KerberosKey"/>
 <fullyQualifiedTypeName name="Point.BySlope"/>
@@ -50,4 +46,17 @@
 <fullyQualifiedTypeName name="java.util.Comparator"/>
 <fullyQualifiedTypeName name="javax.naming.ldap.SortControl"/>
 <fullyQualifiedTypeName name="Student"/>
+<fullyQualifiedTypeName name="MinPQ"/>
+<fullyQualifiedTypeName name="Event"/>
+<fullyQualifiedTypeName name="In"/>
+<fullyQualifiedTypeName name="Particle"/>
+<fullyQualifiedTypeName name="CollisionSystem"/>
+<fullyQualifiedTypeName name="StdDraw"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="Test"/>
+<fullyQualifiedTypeName name="java.io.OutputStream"/>
+<fullyQualifiedTypeName name="java.io.BufferedWriter"/>
+<fullyQualifiedTypeName name="java.io.FileWriter"/>
+<fullyQualifiedTypeName name="java.lang.Math"/>
+<fullyQualifiedTypeName name="java.lang.Double"/>
 </qualifiedTypeNameHistroy>

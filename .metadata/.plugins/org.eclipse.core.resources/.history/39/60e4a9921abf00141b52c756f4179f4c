@@ -1,0 +1,67 @@
+
+public class CollisionSystem {
+	private MinPQ<Event> pq;
+	private double t = 0.0;
+	private Particle[] particles;
+	
+	public CollisionSystem(Particle[] particles) {
+		// TODO Auto-generated constructor stub
+		this.particles = particles.clone(); 
+	}
+	
+	private void predict(Particle a) {
+		if (a == null)
+			return;
+		for (Particle particle : particles) {
+			double dt = a.timeToHit(particle);
+			pq.insert(new Event(t + dt, a, particle));
+		}
+		pq.insert(new Event(t + a.timeToHitVerticalWall(), a, null));
+		pq.insert(new Event(t + a.timeToHitHorizontalWall(), null, a));
+	}
+	
+	private void redraw() {
+		for (Particle particle : particles) {
+			particle.draw();
+		}
+	}
+	
+	public void simulate() {
+		pq = new MinPQ<Event>();
+		for (Particle particle : particles) 
+			predict(particle);
+		pq.insert(new Event(0, null, null));
+		
+		while (!pq.isEmpty()) {
+			Event event = pq.delMin();
+			if (!event.isValid())
+				continue;
+			Particle a = event.getA();
+			Particle b = event.getB();
+			
+			for (Particle particle : particles)
+				particle.move(event.getTime());
+			t = event.getTime();
+			
+			if (a != null && b != null)
+				a.bounceOff(b);
+			else if (a != null && b == null)
+				a.bounceOffVerticalWall();
+			else if (a == null && b != null)
+				b.bounceOffHorizontalWall();
+			else 
+				redraw();
+			
+			predict(a);
+			predict(b);
+		}
+	}
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
