@@ -43,12 +43,8 @@ public class Board {
 	}
 	
 	public boolean isGoal() {
-		for (int i = 0; i < N - 1; i++)
-			if (blocks[i] != i + 1)
-				return false;
-		if (blocks[N - 1] != 0)
-			return false;
-		return true;
+		Solver solver = new Solver(this);
+		return solver.isSolvable();
 	}
 	
 	private void swap(int i, int j) {
@@ -145,7 +141,7 @@ public class Board {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int[][] test = {{1,2,3},{4,5,6},{7,8,0}};
+		int[][] test = {{5,0,2},{4,3,8},{7,1,6}};
 		Board testBoard = new Board(test);
 		System.out.println(testBoard.dimension() + " " + testBoard.hamming() + " " + testBoard.manhattan());
 		System.out.println(testBoard);
@@ -154,7 +150,6 @@ public class Board {
 		System.out.println(testBoard.twin());
 		System.out.println(testBoard.equals(testBoard));
 		System.out.println(testBoard.equals(testBoard.twin()));
-		System.out.println(testBoard.isGoal());
 	}
 
 }

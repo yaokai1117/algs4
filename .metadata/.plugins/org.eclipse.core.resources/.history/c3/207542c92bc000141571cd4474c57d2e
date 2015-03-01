@@ -4,6 +4,7 @@ public class Solver {
 	private Stack<Board> solutionBoards;
 	private boolean solvability;
 	private int movNumber;
+	private Board goal;
 
 	private class SearchNode implements Comparable<SearchNode> {
 		Board board;
@@ -33,6 +34,14 @@ public class Solver {
 		if (initial == null)
 			throw new NullPointerException();
 		
+		int dim = initial.dimension();
+		int[][] aux = new int[dim][dim];
+		for (int i = 0; i < dim; i++)
+			for (int j = 0; j < dim; j++)
+				aux[i][j] = i * dim + j + 1;
+		aux[dim-1][dim-1] = 0;
+		goal = new Board(aux);
+		
 		Board twinBoard = initial.twin();
 		MinPQ<SearchNode> pq1 = new MinPQ<SearchNode>();
 		MinPQ<SearchNode> pq2 = new MinPQ<SearchNode>();
@@ -44,12 +53,12 @@ public class Solver {
 			SearchNode node1 = pq1.delMin();
 			SearchNode node2 = pq2.delMin();
 			
-			if (node1.board.isGoal()) {
+			if (node1.board.equals(goal)) {
 				solvability = true;
 				ansNode = node1;
 				break;
 			}
-			if (node2.board.isGoal()) {
+			if (node2.board.equals(goal)) {
 				solvability = false;
 				ansNode = null;
 				break;
