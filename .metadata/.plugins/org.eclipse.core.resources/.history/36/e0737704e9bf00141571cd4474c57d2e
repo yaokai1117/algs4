@@ -1,0 +1,54 @@
+
+public class Board {
+	private char[] blocks;
+	private int dimension;
+	private int N;
+	
+	public Board(int[][] blocks) {
+		// TODO Auto-generated constructor stub
+		this.dimension = blocks.length;
+		this.N = dimension*dimension;
+		this.blocks = new char[N];
+		for (int i = 0; i < dimension; i++)
+			for (int j = 0; j < dimension; j++) 
+				this.blocks[i*dimension + j] = (char)blocks[i][j];
+	}
+	
+	public int dimension() {
+		return dimension;
+	}
+	
+	public int hamming() {
+		int ret = 0;
+		for (int i = 0; i < N - 1; i++)
+			if (blocks[i] != i + 1)
+				ret++;
+		return ret;
+	}
+	
+	public int manhattan() {
+		int ret = 0;
+		for (int i = 0; i < N; i++) {
+			if (blocks[i] == 0)
+				continue;
+			ret += Math.abs(i%dimension - (blocks[i]-1)%dimension);
+			ret += Math.abs(i/dimension - (blocks[i]-1)/dimension);
+		}
+		return ret;
+	}
+	
+	public boolean isGoal() {
+		
+	}
+	
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int[][] test = {{8,1,3},{4,0,2},{7,6,5}};
+		Board testBoard = new Board(test);
+		System.out.println(testBoard.dimension() + " " + testBoard.hamming() + " " + testBoard.manhattan());
+	}
+
+}

@@ -22,7 +22,7 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="232" y="30"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
@@ -35,33 +35,13 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
-<part id="1"/>
-<part id="2"/>
-<part id="3"/>
-<part id="4"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Particle.java" partName="Particle.java" path="/home/yaokai/Work/algs4/Nbody/src/Particle.java" title="Particle.java" tooltip="Nbody/src/Particle.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Nbody/src/Particle.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2092" selectionTopPixel="1242"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Event.java" partName="Event.java" path="/home/yaokai/Work/algs4/Nbody/src/Event.java" title="Event.java" tooltip="Nbody/src/Event.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Nbody/src/Event.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="604" selectionTopPixel="154"/>
-</editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CollisionSystem.java" partName="CollisionSystem.java" path="/home/yaokai/Work/algs4/Nbody/src/CollisionSystem.java" title="CollisionSystem.java" tooltip="Nbody/src/CollisionSystem.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Nbody/src/CollisionSystem.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1568" selectionTopPixel="913"/>
-</editor>
-<editor id="org.eclipse.ui.DefaultTextEditor" name="test" partName="test" path="/home/yaokai/Work/algs4/Nbody/src/test" title="test" tooltip="Nbody/src/test" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Nbody/src/test"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2903" selectionTopPixel="1260"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestBuilder.java" partName="TestBuilder.java" path="/home/yaokai/Work/algs4/Nbody/src/TestBuilder.java" title="TestBuilder.java" tooltip="Nbody/src/TestBuilder.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Nbody/src/TestBuilder.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="708" selectionTopPixel="109"/>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Board.java" partName="Board.java" path="/home/yaokai/Work/algs4/EightPuzzle/src/Board.java" title="Board.java" tooltip="EightPuzzle/src/Board.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/EightPuzzle/src/Board.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="934" selectionTopPixel="347"/>
 </editor>
 </editors>
 <views>
@@ -71,7 +51,7 @@
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
-<category IMemento.internal.id="Errors"/>
+<category IMemento.internal.id="Warnings"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="408" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.resourceField="105" org.eclipse.ui.ide.severityAndDescriptionField="350"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
@@ -311,104 +291,14 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Nbody/src/CollisionSystem.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/Nbody/src/test"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Nbody/src/TestBuilder.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/Nbody/src/test2"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Nbody/src/Particle.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Nbody/src/Event.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/Nbody/src/test2"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/Nbody/src/test"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Nbody/src/TestBuilder.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/EightPuzzle/src/Board.java"/>
 </editors>
-<item historyLabel="Event.java" index="4">
-<position info="not_deleted" x="604" y="0"/>
-</item>
-<item historyLabel="TestBuilder.java" index="2">
-<position info="not_deleted" x="683" y="0"/>
-</item>
-<item historyLabel="test" index="1">
-<position info="not_deleted" x="2" y="0"/>
-</item>
-<item historyLabel="CollisionSystem.java" index="0">
-<position info="not_deleted" x="1279" y="0"/>
-</item>
-<item historyLabel="Event.java" index="4">
-<position info="not_deleted" x="604" y="0"/>
-</item>
-<item historyLabel="Particle.java" index="3">
-<position info="not_deleted" x="2092" y="0"/>
-</item>
-<item historyLabel="CollisionSystem.java" index="0">
-<position info="not_deleted" x="1279" y="0"/>
-</item>
-<item historyLabel="TestBuilder.java" index="2">
-<position info="not_deleted" x="683" y="0"/>
-</item>
-<item historyLabel="test" index="1">
-<position info="not_deleted" x="3933" y="0"/>
-</item>
-<item historyLabel="TestBuilder.java" index="2">
-<position info="not_deleted" x="683" y="0"/>
-</item>
-<item historyLabel="CollisionSystem.java" index="0">
-<position info="not_deleted" x="1279" y="0"/>
-</item>
-<item historyLabel="TestBuilder.java" index="2">
-<position info="not_deleted" x="683" y="0"/>
-</item>
-<item historyLabel="CollisionSystem.java" index="0">
-<position info="not_deleted" x="1569" y="0"/>
-</item>
-<item historyLabel="TestBuilder.java" index="2">
-<position/>
-</item>
-<item historyLabel="test" index="1">
-<position info="not_deleted" x="3933" y="0"/>
-</item>
-<item historyLabel="TestBuilder.java" index="2">
-<position info="not_deleted" x="420" y="0"/>
-</item>
-<item historyLabel="test2" index="5">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="CollisionSystem.java" index="0">
-<position info="not_deleted" x="1217" y="0"/>
-</item>
-<item historyLabel="test" index="1">
-<position info="not_deleted" x="3933" y="0"/>
-</item>
-<item historyLabel="CollisionSystem.java" index="0">
-<position info="not_deleted" x="1217" y="0"/>
-</item>
-<item historyLabel="test2" index="5">
-<position info="not_deleted" x="2" y="0"/>
-</item>
-<item historyLabel="TestBuilder.java" index="2">
-<position info="not_deleted" x="420" y="0"/>
-</item>
-<item historyLabel="test2" index="5">
-<position info="not_deleted" x="2" y="0"/>
-</item>
-<item historyLabel="TestBuilder.java" index="2">
-<position info="not_deleted" x="420" y="0"/>
-</item>
-<item historyLabel="CollisionSystem.java" index="0">
-<position info="not_deleted" x="1217" y="0"/>
-</item>
-<item historyLabel="TestBuilder.java" index="2">
-<position info="not_deleted" x="420" y="0"/>
-</item>
-<item historyLabel="test" index="1">
-<position info="not_deleted" x="2903" y="0"/>
-</item>
-<item historyLabel="test2" index="5">
-<position info="not_deleted" x="2" y="0"/>
-</item>
-<item historyLabel="TestBuilder.java" index="2">
-<position/>
-</item>
-<item historyLabel="test2" index="5">
-<position info="not_deleted" x="2" y="0"/>
-</item>
-<item historyLabel="TestBuilder.java" index="2">
-<position/>
-</item>
-<item historyLabel="test2" index="5">
+<item historyLabel="test2" index="3">
 <position info="not_deleted" x="2" y="0"/>
 </item>
 <item historyLabel="CollisionSystem.java" index="0">
@@ -417,7 +307,7 @@
 <item historyLabel="TestBuilder.java" index="2">
 <position/>
 </item>
-<item historyLabel="test2" index="5">
+<item historyLabel="test2" index="3">
 <position info="not_deleted" x="2" y="0"/>
 </item>
 <item historyLabel="CollisionSystem.java" index="0">
@@ -426,13 +316,13 @@
 <item historyLabel="TestBuilder.java" index="2">
 <position/>
 </item>
-<item historyLabel="test2" index="5">
+<item historyLabel="test2" index="3">
 <position info="not_deleted" x="2" y="0"/>
 </item>
 <item historyLabel="CollisionSystem.java" index="0">
 <position info="not_deleted" x="1568" y="0"/>
 </item>
-<item historyLabel="test2" index="5">
+<item historyLabel="test2" index="3">
 <position info="not_deleted" x="2" y="0"/>
 </item>
 <item historyLabel="CollisionSystem.java" index="0">
@@ -462,8 +352,101 @@
 <item historyLabel="TestBuilder.java" index="2">
 <position info="not_deleted" x="708" y="0"/>
 </item>
-<item active="true" historyLabel="CollisionSystem.java" index="0">
+<item historyLabel="CollisionSystem.java" index="0">
 <position info="not_deleted" x="1568" y="0"/>
+</item>
+<item historyLabel="Particle.java" index="4">
+<position info="not_deleted" x="2092" y="0"/>
+</item>
+<item historyLabel="Event.java" index="5">
+<position info="not_deleted" x="604" y="0"/>
+</item>
+<item historyLabel="CollisionSystem.java" index="0">
+<position info="not_deleted" x="1568" y="0"/>
+</item>
+<item historyLabel="test" index="6">
+<position info="not_deleted" x="2903" y="0"/>
+</item>
+<item historyLabel="TestBuilder.java" index="7">
+<position info="not_deleted" x="708" y="0"/>
+</item>
+<item historyLabel="Board.java" index="8">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Board.java" index="8">
+<position info="not_deleted" x="332" y="0"/>
+</item>
+<item historyLabel="Board.java" index="8">
+<position info="not_deleted" x="366" y="0"/>
+</item>
+<item historyLabel="Board.java" index="8">
+<position info="not_deleted" x="384" y="0"/>
+</item>
+<item historyLabel="Board.java" index="8">
+<position info="not_deleted" x="387" y="0"/>
+</item>
+<item historyLabel="Board.java" index="8">
+<position info="not_deleted" x="254" y="0"/>
+</item>
+<item historyLabel="Board.java" index="8">
+<position info="not_deleted" x="517" y="0"/>
+</item>
+<item historyLabel="Board.java" index="8">
+<position info="not_deleted" x="534" y="0"/>
+</item>
+<item historyLabel="Board.java" index="8">
+<position info="not_deleted" x="584" y="1"/>
+</item>
+<item historyLabel="Board.java" index="8">
+<position info="not_deleted" x="587" y="0"/>
+</item>
+<item historyLabel="Board.java" index="8">
+<position info="not_deleted" x="645" y="0"/>
+</item>
+<item historyLabel="Board.java" index="8">
+<position info="not_deleted" x="672" y="0"/>
+</item>
+<item historyLabel="Board.java" index="8">
+<position info="not_deleted" x="694" y="0"/>
+</item>
+<item historyLabel="Board.java" index="8">
+<position info="not_deleted" x="764" y="0"/>
+</item>
+<item historyLabel="Board.java" index="8">
+<position info="not_deleted" x="750" y="0"/>
+</item>
+<item historyLabel="Board.java" index="8">
+<position info="not_deleted" x="934" y="0"/>
+</item>
+<item historyLabel="Board.java" index="8">
+<position info="not_deleted" x="934" y="0"/>
+</item>
+<item historyLabel="Board.java" index="8">
+<position/>
+</item>
+<item historyLabel="Board.java" index="8">
+<position info="not_deleted" x="933" y="0"/>
+</item>
+<item historyLabel="Board.java" index="8">
+<position info="not_deleted" x="934" y="0"/>
+</item>
+<item historyLabel="Board.java" index="8">
+<position info="not_deleted" x="934" y="0"/>
+</item>
+<item historyLabel="Board.java" index="8">
+<position info="not_deleted" x="934" y="0"/>
+</item>
+<item historyLabel="Board.java" index="8">
+<position info="not_deleted" x="934" y="0"/>
+</item>
+<item historyLabel="Board.java" index="8">
+<position info="not_deleted" x="934" y="0"/>
+</item>
+<item historyLabel="Board.java" index="8">
+<position info="not_deleted" x="934" y="0"/>
+</item>
+<item active="true" historyLabel="Board.java" index="8">
+<position info="not_deleted" x="934" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -471,9 +454,6 @@
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
-<trimArea IMemento.internal.id="16384">
-<trimItem IMemento.internal.id="left"/>
-</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 </trimArea>
@@ -481,11 +461,13 @@
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
-<trimItem IMemento.internal.id="bottom"/>
 </trimArea>
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Board.java" tooltip="EightPuzzle/src/Board.java">
+<persistable path="/EightPuzzle/src/Board.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="test2" tooltip="Nbody/src/test2">
 <persistable path="/Nbody/src/test2"/>
 </file>
@@ -515,9 +497,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Particle.java" tooltip="Nbody/src/Particle.java">
 <persistable path="/Nbody/src/Particle.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Board.java" tooltip="EightPuzzle/src/Board.java">
-<persistable path="/EightPuzzle/src/Board.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="QuickSort.java" tooltip="Sort/src/QuickSort.java">
 <persistable path="/Sort/src/QuickSort.java"/>

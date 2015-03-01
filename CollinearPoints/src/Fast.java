@@ -3,7 +3,7 @@ import java.util.Comparator;
 
 
 public class Fast {
-
+	
 	/**
 	 * @param args
 	 */
