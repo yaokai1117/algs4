@@ -1,0 +1,101 @@
+import java.util.TreeSet;
+import java.util.Stack;
+
+public class PointSET {
+
+	private TreeSet<Point2D> pSet;
+	
+	public PointSET() {
+		pSet = new TreeSet<Point2D>();
+	}
+	
+	public boolean isEmpty() {
+		return pSet.isEmpty();
+	}
+	
+	public int size() {
+		return pSet.size();
+	}
+	
+	public void insert(Point2D p) {
+		pSet.add(p);
+	}
+	
+	public boolean contains(Point2D p) {
+		return pSet.contains(p);
+	}
+	
+	public void draw() {
+		for (Point2D point2d : pSet) {
+			point2d.draw();
+		}
+	}
+	
+	public Iterable<Point2D> range(RectHV rect) {
+		Stack<Point2D> point2ds = new Stack<Point2D>();
+		for (Point2D point2d : pSet) {
+			if (rect.contains(point2d))
+				point2ds.push(point2d);
+		}
+		return point2ds;
+	}
+	
+	public Point2D nearest(Point2D p) {
+		Point2D retPoint2d = pSet.first();
+		for (Point2D point2d : pSet) {
+			if (p.DISTANCE_TO_ORDER.compare(point2d, retPoint2d) <=0 )
+				retPoint2d = point2d;
+		}
+		return retPoint2d;
+	}
+	
+	/**
+	 * @param args
+ */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		In in = new In(args[0]);
+		StdDraw.setXscale(0, 1);
+        StdDraw.setYscale(0, 1);
+		StdDraw.show(0);
+		
+		PointSET brute = new PointSET();
+		while (!in.isEmpty()) {
+				double x = in.readDouble();
+				double y = in.readDouble();
+				Point2D p = new Point2D(x, y);
+				brute.insert(p);
+		}
+		
+		for (Point2D point2d : brute.pSet) {
+			System.out.println(point2d);
+		}
+		
+		while (true) {
+
+            // the location (x, y) of the mouse
+            double x = StdDraw.mouseX();
+            double y = StdDraw.mouseY();
+            Point2D query = new Point2D(x, y);
+
+            // draw all of the points
+            StdDraw.clear();
+            StdDraw.setPenColor(StdDraw.BLACK);
+            StdDraw.setPenRadius(.1);
+            brute.draw();
+
+            // draw in red the nearest neighbor (using brute-force algorithm)
+            StdDraw.setPenRadius(.3);
+            StdDraw.setPenColor(StdDraw.RED);
+            brute.nearest(query).draw();
+            StdDraw.setPenRadius(.02);
+
+//            // draw in blue the nearest neighbor (using kd-tree algorithm)
+//            StdDraw.setPenColor(StdDraw.BLUE);
+//            kdtree.nearest(query).draw();
+//            StdDraw.show(0);
+//            StdDraw.show(40);
+        }
+	}
+
+}

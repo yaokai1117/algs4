@@ -3,7 +3,7 @@
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
 		<item value="310" key="DIALOG_WIDTH"/>
 		<item value="96" key="DIALOG_Y_ORIGIN"/>
-		<item value="436" key="DIALOG_HEIGHT"/>
+		<item value="464" key="DIALOG_HEIGHT"/>
 		<item value="528" key="DIALOG_X_ORIGIN"/>
 		<item value="1|Ubuntu|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
 	</section>
@@ -13,12 +13,18 @@
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="false" key="wholeword"/>
-		<item value="1" key="selection"/>
+		<item value="contains" key="selection"/>
 		<list key="findhistory">
+			<item value="contains"/>
+			<item value="contain"/>
 			<item value="1"/>
 			<item value="i"/>
 		</list>
 		<list key="replacehistory">
 		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
+		<item value="244" key="DIALOG_Y_ORIGIN"/>
+		<item value="406" key="DIALOG_X_ORIGIN"/>
 	</section>
 </section>

@@ -1,0 +1,22 @@
+
+public class KdTree {
+
+	private static class KdNode {
+		private Point2D p;
+		private RectHV rect;
+		private KdNode lb;
+		private KdNode ru;
+	}
+	
+	public KdTree() {
+		
+	}
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

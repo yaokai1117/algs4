@@ -1,0 +1,98 @@
+
+public class KdTree {
+
+	private KdNode root;
+	private int size;
+	
+	private static class KdNode {
+		
+		public KdNode(boolean vertical, Point2D p, RectHV rect, KdNode lb, KdNode ru) {
+			// TODO Auto-generated constructor stub
+			this.vertical = vertical;
+			this.p = p;
+			this.rect = rect;
+			this.lb = lb;
+			this.ru = ru;
+		}
+		
+		private boolean vertical;
+		private Point2D p;
+		private RectHV rect;
+		private KdNode lb;
+		private KdNode ru;
+	}
+	
+	public KdTree() {
+		root = null;
+		size = 0;
+	}
+	
+	public boolean isEmpty() {
+		return size == 0;
+	}
+	
+	public int size() {
+		return size;
+	}
+	
+	public void insert(Point2D p) {
+		if (p == null)
+			throw new NullPointerException();
+		root = insert(root, p, false);
+	}
+	
+	private KdNode insert(KdNode node, Point2D p, boolean pre) {
+		if (node == null) {
+			size++;
+			return new KdNode(!pre, p, null, null, null);
+		}
+		if (p.equals(node.p))
+			return node;
+		
+		double cmp = 0;
+		if (node.vertical)
+			cmp = p.x() - node.p.x();
+		else 
+			cmp = p.y() - node.p.y();
+		
+		if (cmp < 0)
+			node.lb = insert(node.lb, p, node.vertical);
+		else 
+			node.ru = insert(node.ru, p, node.vertical);
+		
+		return node;
+	}
+	
+	public boolean contains(Point2D p) {
+		return contains(root, p);
+	}
+	
+	private boolean contains(KdNode node, Point2D p) {
+		if (node == null)
+			return false;
+		if (p.equals(node.p))
+			return true;
+		
+		double cmp = 0;
+		if (node.vertical)
+			cmp = p.x() - node.p.x();
+		else 
+			cmp = p.y() - node.p.y();
+		
+		if (cmp < 0)
+			return contains(node.lb, p);
+		else 
+			return contains(node.ru, p);
+	}
+	
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		KdTree testKdTree = new KdTree();
+		testKdTree.insert(new Point2D(0.5342, 0.3452));
+		System.out.println(testKdTree.contains(new Point2D(0.5342, 0.3452)));
+	}
+
+}

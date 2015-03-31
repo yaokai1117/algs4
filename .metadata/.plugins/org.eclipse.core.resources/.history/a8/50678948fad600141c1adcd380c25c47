@@ -1,0 +1,177 @@
+import java.util.Stack;
+
+public class KdTree {
+
+	private KdNode root;
+	private int size;
+	
+	private static class KdNode {
+		
+		public KdNode(boolean vertical, Point2D p, RectHV rect, KdNode lb, KdNode ru) {
+			// TODO Auto-generated constructor stub
+			this.vertical = vertical;
+			this.p = p;
+			this.rect = rect;
+			this.lb = lb;
+			this.ru = ru;
+		}
+		
+		private boolean vertical;
+		private Point2D p;
+		private RectHV rect;
+		private KdNode lb;
+		private KdNode ru;
+	}
+	
+	public KdTree() {
+		root = null;
+		size = 0;
+	}
+	
+	public boolean isEmpty() {
+		return size == 0;
+	}
+	
+	public int size() {
+		return size;
+	}
+	
+	public void insert(Point2D p) {
+		if (p == null)
+			throw new NullPointerException();
+		if (root == null)
+			root = new KdNode(true, p, new RectHV(0, 0, 1, 1), null, null);
+		else 
+			root = insert(root, p, null);
+	}	
+	private KdNode insert(KdNode node, Point2D p, KdNode pre) {
+		if (node == null) {
+			RectHV rcPre = pre.rect;
+			double xmin = rcPre.xmin(), ymin = rcPre.ymin(), xmax = rcPre.xmax(), ymax = rcPre.ymax();
+			if (pre.vertical) {
+				if (p.x() < pre.p.x())
+					xmax = pre.p.x();
+				else 
+					xmin = pre.p.x();
+			}
+			else {
+				if (p.y() < pre.p.y())
+					ymax = pre.p.y();
+				else 
+					ymin = pre.p.y();
+			}
+				
+			size++;
+			return new KdNode(!pre.vertical, p, new RectHV(xmin, ymin, xmax, ymax), null, null);
+		}
+		if (p.equals(node.p))
+			return node;
+		
+		double cmp = 0;
+		if (node.vertical)
+			cmp = p.x() - node.p.x();
+		else 
+			cmp = p.y() - node.p.y();
+			
+		if (cmp < 0)
+			node.lb = insert(node.lb, p, node);
+		else 
+			node.ru = insert(node.ru, p, node);
+
+		return node;
+	}
+	
+	public boolean contains(Point2D p) {
+		if (p == null)
+			throw new NullPointerException();
+		return contains(root, p);
+	}	
+	private boolean contains(KdNode node, Point2D p) {
+		if (node == null)
+			return false;
+		if (p.equals(node.p))
+			return true;
+		
+		double cmp = 0;
+		if (node.vertical)
+			cmp = p.x() - node.p.x();
+		else 
+			cmp = p.y() - node.p.y();
+		
+		if (cmp < 0)
+			return contains(node.lb, p);
+		else 
+			return contains(node.ru, p);
+	}
+	
+	public void draw() {
+		draw(root);
+	}
+	private void draw(KdNode node) {
+		if (node == null)
+			return;
+		StdDraw.setPenColor(StdDraw.BLACK);
+		StdDraw.setPenRadius(.01);
+		node.p.draw();
+		StdDraw.setPenRadius();
+		if (node.vertical) {
+			StdDraw.setPenColor(StdDraw.RED);
+			StdDraw.line(node.p.x(), node.rect.ymin(), node.p.x(), node.rect.ymax());
+		}
+		else {
+			StdDraw.setPenColor(StdDraw.BLUE);
+			StdDraw.line(node.rect.xmin(), node.p.y(), node.rect.xmax(), node.p.y());
+		}
+		draw(node.lb);
+		draw(node.ru);
+	}
+	
+	public Iterable<Point2D> range(RectHV rect) {
+		if (rect == null)
+			throw new NullPointerException();
+		Stack<Point2D> point2ds = new Stack<Point2D>();
+		range(root, rect, point2ds);
+		return point2ds;
+	}
+	private void range(KdNode node, RectHV rect, Stack<Point2D> point2ds) {
+		if (node == null)
+			return;
+		if (rect.contains(node.p))
+			point2ds.push(node.p);
+		if (node.lb != null && node.lb.rect.intersects(rect))
+			range(node.lb, rect, point2ds);
+		if (node.ru != null && node.ru.rect.intersects(rect))
+			range(node.ru, rect, point2ds);
+	}
+	
+	
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		KdTree testKdTree = new KdTree();
+		In in = new In(args[0]);
+
+		while (!in.isEmpty()) {
+			double x = in.readDouble();
+			double y = in.readDouble();
+			Point2D p = new Point2D(x, y);
+			testKdTree.insert(p);
+		}
+		
+		Point2D[] point2ds = new Point2D[5];
+		point2ds[0] = new Point2D(0.242431, 0.365637);
+		point2ds[1] = new Point2D(0.231, 0.36567);
+		point2ds[2] = new Point2D(0.475530, 0.350257);
+		point2ds[3] = new Point2D(0.9991, 0.300037);
+		point2ds[4] = new Point2D(0.863282, 0.622413);
+		
+		for (Point2D point2d : point2ds) {
+			System.out.println(testKdTree.contains(point2d));
+		}
+		
+		testKdTree.draw();
+	}
+
+}

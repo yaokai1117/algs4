@@ -1,0 +1,60 @@
+import java.util.TreeSet;
+import java.util.Stack;
+
+public class PointSET {
+
+	private TreeSet<Point2D> pSet;
+	
+	public PointSET() {
+		pSet = new TreeSet<Point2D>();
+	}
+	
+	public boolean isEmpty() {
+		return pSet.isEmpty();
+	}
+	
+	public int size() {
+		return pSet.size();
+	}
+	
+	public void insert(Point2D p) {
+		pSet.add(p);
+	}
+	
+	public boolean contains(Point2D p) {
+		return pSet.contains(p);
+	}
+	
+	public void draw() {
+		for (Point2D point2d : pSet) {
+			point2d.draw();
+		}
+	}
+	
+	public Iterable<Point2D> range(RectHV rect) {
+		Stack<Point2D> point2ds = new Stack<Point2D>();
+		for (Point2D point2d : pSet) {
+			if (rect.contains(point2d))
+				point2ds.add(point2d);
+		}
+		return point2ds;
+	}
+	
+	public Point2D nearest(Point2D p) {
+		Point2D retPoint2d = pSet.first();
+		for (Point2D point2d : pSet) {
+			if (p.DISTANCE_TO_ORDER.compare(point2d, retPoint2d) <=0 )
+				retPoint2d = point2d;
+		}
+		return retPoint2d;
+	}
+	
+	/**
+	 * @param args
+ */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,43 @@
+
+public class KdTree {
+
+	private KdNode root;
+	private int size;
+	
+	private static class KdNode {
+		private Point2D p;
+		private RectHV rect;
+		private KdNode lb;
+		private KdNode ru;
+	}
+	
+	public KdTree() {
+		root = new KdNode();
+		root.p = null;
+		root.rect = null;
+		root.lb = root.ru = null;
+	}
+	
+	public boolean isEmpty() {
+		return size == 0;
+	}
+	
+	public int size() {
+		return size;
+	}
+	
+	public void insert(Point2D p) {
+		
+	}
+	
+	
+	
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
